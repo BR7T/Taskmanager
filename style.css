@@ -1,0 +1,9 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.card-post-it{
+    width: 200px;
+    height: 200px;
+    background-color: rgba(255, 255, 0, 0.487);
+}
