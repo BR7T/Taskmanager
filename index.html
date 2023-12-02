@@ -5,22 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TaskMe</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" async></script>
 </head>
 <body>
+<div id="principal">
     <div id="input-task">
-        <div>
+        
             <h1>Insira sua task</h1>
             <form action="">
-                <input type="text" autocomplete="off" placeholder="Titulo">
-                <input type="text" autocomplete="off" placeholder="...">
+                <input id='titulo-task' type="text" autocomplete="off" placeholder="Titulo">
+                <input id='descricao-task'type="text" autocomplete="off" placeholder="...">
+                
             </form>
-        </div>
+            <button id="insert-button" >Inserir</button>
+        
     </div>
+
+
+
+
     <main id="show-tasks">
+
         <div class="card-post-it">
-            <h3>Titulo</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti totam laudantium maiores reiciendis. Magni sint molestiae facere ducimus quas? Vel!</p>
+            <div class="card-top"><h3>Title</h3> <button class="deleta" >X</button></div>
+            <div><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, quisquam velit. Asperiores explicabo nulla consequatur impedit suscipit eius cum nobis.</p></div>
+            
         </div>
+        
     </main>
+</div>
 </body>
 </html>
